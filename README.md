@@ -1,3 +1,3 @@
 # AlarmBotN-B
 this bot create by me and my classmate
-*You need to install everything that i import to code
+*You have to install every module that i import to code
