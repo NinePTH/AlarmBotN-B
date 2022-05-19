@@ -199,7 +199,7 @@ async def check_alarms():
                     #    URL = info['formats'][0]['url']
                     #    voice = get(bot.voice_clients, guild=alarmList[i].name.guild)
                     #    voice.play(discord.FFmpegPCMAudio(URL))
-                    
+                    #i got a bug in this function when alarm owner is not in anychannel bot will cracked
                     alarmList.pop(i)
         await asyncio.sleep(5)
 
@@ -367,4 +367,4 @@ async def place_error(ctx, error):
     elif isinstance(error, commands.BadArgument):
         await ctx.send("โปรดเช็คให้ดีว่าคุณใส่ตัวเลข")
 
-bot.run('OTY4NTM1NjYwNjE5MjU1ODM4.YmgRIA.rb-26ZVQXJgA5e81jDFIc0oqyh4')
+bot.run('*token')
